@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 h1  {
     color: lightcoral;
     font-style: oblique;
@@ -14,8 +18,12 @@ h2  {
     height: 90px;
     background-color: indianred;
 }
-*{
-    margin: 0px;
-    padding: 0px;
+footer {
+    background-color: lightcoral;
+    height: 50px;
+    text-align: center;
 }
-
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  12px; 
+}
