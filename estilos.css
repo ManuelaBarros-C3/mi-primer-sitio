@@ -12,3 +12,8 @@ h2  {
     height: 90px;
     background-color: indianred;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
