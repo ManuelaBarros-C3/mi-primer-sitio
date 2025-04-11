@@ -36,10 +36,11 @@ span {
     color: azure;
     font-size:  12px; 
     font-weight: 100;
-    font-style: normal;
+    font-style: bold;
     padding: 10px;
     margin: 12px;
     border-width: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 nav {
     font-family: 'Montserrat', sans-serif;
