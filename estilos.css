@@ -1,100 +1,123 @@
 @charset "utf-8";
 /* CSS Document */
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 header {
     background-color: rgb(248, 230, 214);
-    width: 1200px;
-    height: 200px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
 }
-h1  {
+
+h1 {
     color: lightcoral;
-    font-family: 'Montserrat', sans-serif;
     font-style: oblique;
-    font-size: 70px
+    font-size: 60px;
 }
-h2, h3, h4, h5, h6  {
-    color: dimgrey;
-    font-style: normal;
-    font-family: 'Montserrat' , sans-serif;
-}
-h5, h6 {
-font-size: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+
 .botonera {
-    width: 1200px;
-    height: 40px;
     background-color: indianred;
-}
-aside p { 
-    color: dimgray;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: oblique;
-    width: 200px;
-}
-article p {
-    color: dimgray;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: oblique;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 300px;
-}
-main{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-}
-span {
-    color: azure;
-    font-size:  12px; 
-    font-weight: 100;
-    font-style: bold;
-    padding: 10px;
-    margin: 12px;
-    border-width: 12px;
-    font-family: 'Montserrat', sans-serif;
-    width: 1200px;
-    height: 80px;
-}
-nav {
-    font-family: 'Montserrat', sans-serif;
-    width: 1200px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-}
-nav ul {
-    list-style: no;
-    width: 500px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px x 350px;
-}
-footer p {
-    background-color: lightcoral;
-    height: 50px;
-    text-align: center;
-    width: 1200px;
-    height: 80px;
-    font-family: 'Montserrat', sans-serif;
-    font-size:  15px; 
-    font-weight: 100;
-    font-style: normal;
     padding: 10px;
-    color: azure;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+main.contenedor {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* FOTO + PRESENTACIÓN */
+.presentacion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto-presentacion p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* EDUCACIÓN EN 3 COLUMNAS */
+.educacion {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.edu-item {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.edu-item h3 {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* EXPERIENCIA + PROGRAMAS + HOBBIES EN 3 COLUMNAS */
+.info-final {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-item {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.info-item h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.info-item ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
 }
