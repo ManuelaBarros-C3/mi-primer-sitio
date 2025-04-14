@@ -4,6 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-color: rgb(248, 230, 214);
+    width: 1200px;
+    height: 200px;
+}
 h1  {
     color: lightcoral;
     font-family: 'Montserrat', sans-serif;
@@ -17,20 +27,35 @@ h2, h3, h4, h5, h6  {
 }
 h5, h6 {
 font-size: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .botonera {
-    width: 800px;
+    width: 1200px;
     height: 40px;
     background-color: indianred;
 }
-aside p {
+aside p { 
     color: dimgray;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: oblique;
+    width: 200px;
+}
+article p {
+    color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 300px;
 }
 main{
     font-family: 'Montserrat', sans-serif;
+    display: flex;
 }
 span {
     color: azure;
@@ -41,20 +66,35 @@ span {
     margin: 12px;
     border-width: 12px;
     font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    height: 80px;
 }
 nav {
     font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
 }
-footer {
+nav ul {
+    list-style: no;
+    width: 500px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px x 350px;
+}
+footer p {
     background-color: lightcoral;
     height: 50px;
     text-align: center;
-}
-footer {
+    width: 1200px;
+    height: 80px;
     font-family: 'Montserrat', sans-serif;
     font-size:  15px; 
     font-weight: 100;
     font-style: normal;
     padding: 10px;
     color: azure;
+    display: flex;
 }
