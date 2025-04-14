@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-    color: lightcoral;
+    color: indianred;
     font-style: oblique;
     font-size: 60px;
 }
@@ -78,7 +78,7 @@ main.contenedor {
 
 .edu-item {
     flex: 1;
-    background-color: #f5f5f5;
+    background-color:rgb(248, 230, 214);
     padding: 10px;
     border-radius: 8px;
 }
@@ -97,7 +97,7 @@ main.contenedor {
 
 .info-item {
     flex: 1;
-    background-color: #f0f0f0;
+    background-color:rgb(248, 230, 214);
     padding: 15px;
     border-radius: 8px;
 }
@@ -113,7 +113,7 @@ main.contenedor {
 }
 
 footer {
-    background-color: lightcoral;
+    background-color:indianred;
     color: white;
     text-align: center;
     padding: 15px;
